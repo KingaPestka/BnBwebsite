@@ -1,0 +1,641 @@
+body{
+    background-color:rgb(106, 141, 141) ;
+    background-image: url(./img/clifs6.png) ;
+   background-position-x: center;
+   background-size: cover;
+   background-repeat: no-repeat;/*fullscreen background*/
+   background-attachment: fixed;
+   color:rgb(49, 76, 88);  
+}
+h1{
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+a:link , a:visited {
+    color:white;
+}
+a:hover , a:active {
+    color:rgb(28, 80, 80);
+}
+
+.overlay{
+     
+    height:1500px;
+    width:1200px;
+    margin:auto;/*sheer backdrop*/
+    padding:10px;
+    background-color:rgba(180, 201, 206, 0.651)
+}
+/*nav*/
+.heading{
+
+font-size: 200%;
+height: 40px;
+width:1500px;
+text-align:center;
+border:3px inset rgb(255, 255, 255);
+border-radius:5px;
+padding: 10px ;
+margin: auto;
+display:flex;
+justify-content: space-around;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+.FAQ{
+color:rgb(49, 76, 88);
+ font-family: Arial, Helvetica, sans-serif;
+ position: relative;
+ font-size:30px;
+ text-align:center;
+ margin-top:-1500px;
+ margin-left:40px;
+ 
+}
+/*questions and answers for faq*/
+.question1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-right:430px ;
+}
+.ans1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top: -14px;
+    margin-right:435px ;
+}
+.question2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-right:430px ;
+}
+.ans2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top: -14px;
+    margin-right:430px ;
+}
+.question3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-right:430px ;
+}
+.ans3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top: -14px;
+    margin-right:430px ;
+}
+.question4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.ans4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top: -14px;
+    margin-right:430px ;
+}
+.question5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.ans5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top:-14px;
+    margin-right:430px ;
+}
+.question6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.ans6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top:-14px;
+    margin-right:430px ;
+}
+.question7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.ans7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top:-14px;
+    margin-right:440px ;
+}
+.question8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.ans8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 430px;
+    margin-top:-14px;
+    margin-right:440px ;
+}
+.Contact{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:rgb(49, 76, 88);
+    text-align: left;
+    margin-left: 600px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+/*styling my forms*/
+.Form{
+   
+    margin-top:20px;
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    color:rgb(57, 67, 71);
+   
+  
+ }
+ .Form input{
+    color:rgb(40, 44, 46);
+    width:300px;
+    height:5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Form input[type=text]{
+    
+   
+    border:2px solid  rgb(83, 123, 139);;
+    padding:12px;
+    border-radius: 6px;
+    resize:vertical;
+    background-color: rgba(151, 179, 197, 0.26);
+ }
+ .Form2{
+   
+    margin-top:0px;
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    color:rgb(57, 67, 71);
+   
+  
+ }
+ .Form2 input{
+    color:rgb(40, 44, 46);
+    width:300px;
+    height:300px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Form2 input[type=text]{
+    
+   
+    border:2px solid  rgb(83, 123, 139);;
+    padding:12px;
+    border-radius: 6px;
+    resize:vertical;
+    background-color: rgba(151, 179, 197, 0.26);
+ }
+ /*styling image*/
+ .map{
+     text-align:left;
+     margin-top: -425px;
+     margin-left:810px;
+    
+ }
+ .Button/*styling button*/
+{
+   color:rgb(40, 44, 46);
+   background-color: rgb(255, 255, 255);
+   width: 150px;
+   padding:2px;
+   
+   border-radius:12px;
+   font-size:12px;
+   border:0;
+   cursor:pointer;
+   margin:1px;
+   margin-left:630px;
+   margin-top:120px;
+
+}
+.Button:hover{
+   background-color: rgb(46, 135, 139);
+}
+/*information for contact purpses*/
+.Info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 820px;
+    margin-top:-150px;
+    
+}
+.Info1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 820px;
+    margin-top:-10px;
+}
+.Info2{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: 820px;
+    margin-top:-10px;
+}
+.usefullink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: -390px;
+    margin-top:-650px;
+
+}
+.links{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(49, 76, 88);
+    text-align: left; 
+    margin-left: -390px;
+    margin-top:-20px;
+   
+}
+@media only screen  and (max-width: 360px ){
+    body{
+        background-color:rgb(106, 141, 141) ;
+        background-image: url(./img/clifs6.png) ;
+       background-position-x: center;
+       background-size: cover;
+       background-repeat: no-repeat;/*fullscreen background*/
+       background-attachment: fixed;
+       color:rgb(49, 76, 88);  
+    }
+    h1{
+        color:rgb(0, 0, 0);
+        text-align:center;
+    }
+    a:link , a:visited {
+        color:white;
+    }
+    a:hover , a:active {
+        color:rgb(28, 80, 80);
+    }
+    
+    .overlay{
+         
+        height:1500px;
+        width:1200px;
+        margin:auto;/*sheer backdrop*/
+        padding:10px;
+        background-color:rgba(180, 201, 206, 0.651)
+    }
+    /*nav*/
+    .heading{
+    
+    font-size: 200%;
+    height: 40px;
+    width:1500px;
+    text-align:center;
+    border:3px inset rgb(255, 255, 255);
+    border-radius:5px;
+    padding: 10px ;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    }
+    .FAQ{
+    color:rgb(49, 76, 88);
+     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     font-size:30px;
+     text-align:center;
+     margin-top:-1500px;
+     margin-left:40px;
+     
+    }
+    /*questions and answers for faq*/
+    .question1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 50px;
+        margin-right:430px ;
+    }
+    .ans1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top: -14px;
+        margin-right:435px ;
+    }
+    .question2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 30px;
+        margin-right:430px ;
+    }
+    .ans2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top: -14px;
+        margin-right:430px ;
+    }
+    .question3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 30px;
+        margin-right:430px ;
+    }
+    .ans3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top: -14px;
+        margin-right:430px ;
+    }
+    .question4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+    .ans4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top: -14px;
+        margin-right:430px ;
+    }
+    .question5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+    .ans5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top:-14px;
+        margin-right:430px ;
+    }
+    .question6{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+    .ans6{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top:-14px;
+        margin-right:430px ;
+    }
+    .question7{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+    .ans7{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top:-14px;
+        margin-right:440px ;
+    }
+    .question8{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+    .ans8{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 430px;
+        margin-top:-14px;
+        margin-right:440px ;
+    }
+    .Contact{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color:rgb(49, 76, 88);
+        text-align: left;
+        margin-left: 600px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    /*styling my forms*/
+    .Form{
+       
+        margin-top:20px;
+        margin-left: 450px;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 13px;
+        color:rgb(57, 67, 71);
+       
+      
+     }
+     .Form input{
+        color:rgb(40, 44, 46);
+        width:300px;
+        height:5px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .Form input[type=text]{
+        
+       
+        border:2px solid  rgb(83, 123, 139);;
+        padding:12px;
+        border-radius: 6px;
+        resize:vertical;
+        background-color: rgba(151, 179, 197, 0.26);
+     }
+     .Form2{
+       
+        margin-top:0px;
+        margin-left: 450px;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 13px;
+        color:rgb(57, 67, 71);
+       
+      
+     }
+     .Form2 input{
+        color:rgb(40, 44, 46);
+        width:300px;
+        height:300px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .Form2 input[type=text]{
+        
+       
+        border:2px solid  rgb(83, 123, 139);;
+        padding:12px;
+        border-radius: 6px;
+        resize:vertical;
+        background-color: rgba(151, 179, 197, 0.26);
+     }
+     /*styling image*/
+     .map{
+         text-align:left;
+         margin-top: -425px;
+         margin-left:810px;
+        
+     }
+     .Button/*styling button*/
+    {
+       color:rgb(40, 44, 46);
+       background-color: rgb(255, 255, 255);
+       width: 150px;
+       padding:2px;
+       
+       border-radius:12px;
+       font-size:12px;
+       border:0;
+       cursor:pointer;
+       margin:1px;
+       margin-left:630px;
+       margin-top:140px;
+    
+    }
+    .Button:hover{
+       background-color: rgb(46, 135, 139);
+    }
+    /*information for contact purpses*/
+    .Info{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 820px;
+        margin-top:-170px;
+        
+    }
+    .Info1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 820px;
+        margin-top:-10px;
+    }
+    .Info2{
+        width:250px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(49, 76, 88);
+        text-align: left; 
+        margin-left: 820px;
+        margin-top:-10px;
+    }
+}

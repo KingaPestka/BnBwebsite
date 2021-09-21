@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content= "width=device-width,initial-scale=1.0"><!--attempt of responsive web-->
+    <meta charset="utf-8" />
+    <title>Karen's B&B</title>
+    <link rel="stylesheet" href="./bookcs.css">
+    <script type="text/javascript" src="bookjs.js"></script><!--This was just ince my java script didn't want to work-->
+</head>
+<!--All nav Linked -->
+<body >
+<div class="heading">
+<a href="../home.html">Home</a>
+<a href="../about/about.html">About & Gallery</a>
+<a href="../book/book.html">Book</a>
+<a href="../contact/contact.html">Contact & FAQ</a>
+</div>
+<div class="overlay"></div>
+
+<div id="calendar-container"><!--container for callendar-->
+    <div id="calendar-header">
+        <span id="calendar-month-year"></span><!--top of calendar containing month and year -->
+    </div>
+    <div id="calendar-dates"><!--div containing dates-->
+    </div>
+</div>
+<div class="booking">
+<form><!--form for booking, name and email -->
+    <label for="name">Enter Name:</label><br>
+    <input type="text" id="name" name="name"placeholder=" Full Name ..."><br>
+    <label for="email">Enter Email:</label><br>
+    <input type="text" id="email" email="email"placeholder=" Email ...">
+
+</form>
+</div><!--Form for date-->
+<div class="Date">
+    
+<form>
+    <label for="Date">Enter Dates of Interest:</label><br>
+    <input type="date" id="Date" name="Date"><br>
+</form> 
+</div>
+<div class="Room" style="width:750px;">
+    <select id="roomsel" name="roomsel"><!--selection option for room-->
+        <label for="Room">Choose a Room:</label><br>
+          <option value="Room1">The Wild Atlantic Way Suite - Single Room - €68 Per Night</option>
+          <option value="Room2">The Moher Suite - Double or Twin Room - €114 Per Night</option>
+          <option value="Room3">The West Suite - Triple Room - €152 Per Night</option>
+          <option value="Room4">The Connacht Suite - Family Room - €210 Per Night</option>
+        </select>
+</div>
+ <div class="Extra">
+    <!--extra form for anyhting else -->
+        <form>
+            <label for="Extra">Please write any extra questions you have:</label><br>
+            <input type="text" id="Extra" name="Extra" placeholder="Enter text here... "><br>
+        </form>
+ </div>  
+ <div class="note" style="width:600px"><!--the width gives limit to how uch space can be taken up by the text-->
+ <p>*please note that we will contact you within the first 24hours of your query,
+      You may be provided with a secure link to pay online with your card,
+       alternitvely, you may be asked to pay upon your arrival. Any cancellation is free of charge.</p>
+</div>
+<div class="button1" onclick="FunctionButton1()">
+    <!--simple button function call, there should be a pop up but the fact that 
+it brings you to the next site too quick kind of makes it non-existing-->
+    
+        <button class="bookingButton">
+            Send Query!
+            
+        </button>
+       
+    
+  
+</div>
+</body>
+<script src="./bookjs.js"></script>
+</html>

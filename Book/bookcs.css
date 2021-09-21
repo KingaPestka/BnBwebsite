@@ -1,0 +1,456 @@
+body{
+   
+    background-image: url(./img/clifs6.png) ;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;/*background fill image*/
+    background-attachment: fixed;
+   
+    
+ }
+ 
+ h1{
+     color:rgb(0, 0, 0);
+     text-align:center;
+ }
+ a:link , a:visited {
+     color:white;
+ }
+ a:hover , a:active {
+     color:rgb(34, 124, 136);
+ }
+ 
+ 
+ .heading{/*nav*/
+ 
+ font-size: 200%;
+ height: 40px;
+ width:1500px;
+ text-align:center;
+ border:3px inset rgb(255, 255, 255);
+ border-radius:5px;
+ padding: 10px ;
+ margin: auto;
+ display:flex;
+ justify-content: space-around;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ }
+ .overlay{/*sheer backdrop*/
+     
+     height:1400px;
+     width:1200px;
+     margin:auto;
+     margin-bottom: 10px;
+     padding:10px;
+     background-color:rgba(180, 201, 206, 0.651)
+ }
+ #calendar-container{/*container /box containing calendar*/
+    
+    overflow:auto;
+    margin-bottom:0px;
+  margin-left:600px;
+    margin-top:-1400px;
+    margin-right:40px;
+    color:rgb(49, 76, 88);
+ 
+    padding: 5px;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border-left: 4px solid rgba(83, 123, 139, 0.603);
+    border-bottom: 4px solid rgba(83, 123, 139, 0.603);
+    background-color: rgba(151, 179, 197, 0.425);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:Arial;
+   
+}
+#calendar-container>div{
+    padding: 0px;
+    margin-right:50px;
+  
+    margin-left: 50px;
+    margin-bottom: 1px;
+   
+}
+#calendar-month-year{
+   margin: 0px;
+  
+}
+#calendar-dates>table>tr>td{/*styling dates*/
+   border-top: 2px solid rgb(83, 123, 139);
+   border-left: 2px solid rgb(83, 123, 139);
+    background-color: rgba(173, 211, 221, 0.185);
+   padding: 20px;
+}
+.booking{/*styling form*/
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top:50px;
+   margin-left: 600px;
+  font-size: 16px;
+  color:rgb(49, 76, 88);
+}
+.booking input{
+   color:rgb(40, 44, 46);
+   width:600px;
+   height:8px;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.booking input[type=text]{
+   border:2px solid  rgb(83, 123, 139);;
+   padding:12px;
+   border-radius: 12px;
+   resize:vertical;
+   background-color: rgba(151, 179, 197, 0.26);
+ 
+}
+
+.Room{/*styling selection box*/
+   font-family: Arial, Helvetica, sans-serif; 
+   margin-top:-140px;
+   margin-left: 600px;
+   font-size: 16px;
+   color:rgb(57, 67, 71);
+   width:760px;
+   height:60px;
+} 
+  
+
+select{
+   font-size: 16px;
+   color:rgb(57, 67, 71);
+   width:630px;
+   height:45px;
+   margin-top:15px;
+   margin-left: 0px;
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgba(151, 179, 197, 0.26);
+   border:2px solid  rgb(83, 123, 139);;
+   padding:12px;
+   border-radius: 12px;
+}
+.Date{
+   
+   margin-top:70px;
+   margin-left: 600px;
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 16px;
+   color:rgb(57, 67, 71);
+   width:600px;
+   height:70px;
+ 
+}
+.Date input{
+   color:rgb(40, 44, 46);
+   width:600px;
+   height:15px;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Date input[type=date]{
+   
+  
+   border:2px solid  rgb(83, 123, 139);;
+   padding:12px;
+   border-radius: 12px;
+   resize:vertical;
+   background-color: rgba(151, 179, 197, 0.26);
+}
+.Extra{
+   
+   margin-top:100px;
+   margin-left: 600px;
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 16px;
+   color:rgb(57, 67, 71);
+   width:600px;
+   height:70px;
+}
+.Extra input{
+   color:rgb(40, 44, 46);
+   width:600px;
+   height:300px;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Extra input[type=text]{
+   
+  
+   border:2px solid  rgb(83, 123, 139);;
+   padding:12px;
+   border-radius: 12px;
+   resize:vertical;
+   background-color: rgba(151, 179, 197, 0.26);
+}
+.Extra :placeholder-shown{
+   text-align: center;
+   position:relative;
+   font-size: 18px;
+   
+}
+/*adding extra note on bottom*/
+.note{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 280px;
+ 
+   text-align: left;
+   margin-left: 620px;
+   margin-right: 60px;
+   color:rgb(40, 44, 46);
+}
+.bookingButton/*styling button*/
+{
+   color:rgb(40, 44, 46);
+   background-color: rgb(255, 255, 255);
+   width: 200px;
+   padding:2px;
+   
+   border-radius:12px;
+   font-size:16px;
+   border:0;
+   cursor:pointer;
+   margin:1px;
+   margin-left:1200px;
+   margin-top:50px;
+
+}
+.bookingButton:hover{
+   background-color: rgb(46, 135, 139);
+}
+@media only screen  and (max-width: 360px ){
+   body{
+   
+      background-image: url(./img/clifs6.png) ;
+      background-position-x: center;
+      background-size: cover;
+      background-repeat: no-repeat;/*background fill image*/
+      background-attachment: fixed;
+     
+      
+   }
+   
+   h1{
+       color:rgb(0, 0, 0);
+       text-align:center;
+   }
+   a:link , a:visited {
+       color:white;
+   }
+   a:hover , a:active {
+       color:rgb(34, 124, 136);
+   }
+   
+   
+   .heading{/*nav*/
+   
+   font-size: 200%;
+   height: 40px;
+   width:1500px;
+   text-align:center;
+   border:3px inset rgb(255, 255, 255);
+   border-radius:5px;
+   padding: 10px ;
+   margin: auto;
+   display:flex;
+   justify-content: space-around;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   }
+   .overlay{/*sheer backdrop*/
+       
+       height:1400px;
+       width:1200px;
+       margin:auto;
+       margin-bottom: 10px;
+       padding:10px;
+       background-color:rgba(180, 201, 206, 0.651)
+   }
+   #calendar-container{/*container /box containing calendar*/
+      
+      overflow:auto;
+      margin-bottom:0px;
+    margin-left:600px;
+      margin-top:-1400px;
+      margin-right:40px;
+      color:rgb(49, 76, 88);
+   
+      padding: 5px;
+      width: 600px;
+      height: 500px;
+      text-align: center;
+      border-left: 4px solid rgba(83, 123, 139, 0.603);
+      border-bottom: 4px solid rgba(83, 123, 139, 0.603);
+      background-color: rgba(151, 179, 197, 0.425);
+      border-radius: 10px;
+      font-size: 20px;
+      font-family:Arial;
+     
+  }
+  #calendar-container>div{
+      padding: 0px;
+      margin-right:50px;
+    
+      margin-left: 50px;
+      margin-bottom: 1px;
+     
+  }
+  #calendar-month-year{
+     margin: 0px;
+    
+  }
+  #calendar-dates>table>tr>td{/*styling dates*/
+     border-top: 2px solid rgb(83, 123, 139);
+     border-left: 2px solid rgb(83, 123, 139);
+      background-color: rgba(173, 211, 221, 0.185);
+     padding: 20px;
+  }
+  .booking{/*styling form*/
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top:50px;
+     margin-left: 600px;
+    font-size: 16px;
+    color:rgb(49, 76, 88);
+  }
+  .booking input{
+     color:rgb(40, 44, 46);
+     width:600px;
+     height:8px;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  .booking input[type=text]{
+     border:2px solid  rgb(83, 123, 139);;
+     padding:12px;
+     border-radius: 12px;
+     resize:vertical;
+     background-color: rgba(151, 179, 197, 0.26);
+   
+  }
+  
+  .Room{/*styling selection box*/
+     font-family: Arial, Helvetica, sans-serif; 
+     margin-top:-140px;
+     margin-left: 600px;
+     font-size: 16px;
+     color:rgb(57, 67, 71);
+     width:760px;
+     height:60px;
+  } 
+    
+  
+  select{
+     font-size: 16px;
+     color:rgb(57, 67, 71);
+     width:630px;
+     height:45px;
+     margin-top:15px;
+     margin-left: 0px;
+     position: relative;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgba(151, 179, 197, 0.26);
+     border:2px solid  rgb(83, 123, 139);;
+     padding:12px;
+     border-radius: 12px;
+  }
+  .Date{
+     
+     margin-top:70px;
+     margin-left: 600px;
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 16px;
+     color:rgb(57, 67, 71);
+     width:600px;
+     height:70px;
+   
+  }
+  .Date input{
+     color:rgb(40, 44, 46);
+     width:600px;
+     height:15px;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  .Date input[type=text]{
+     
+    
+     border:2px solid  rgb(83, 123, 139);;
+     padding:12px;
+     border-radius: 12px;
+     resize:vertical;
+     background-color: rgba(151, 179, 197, 0.26);
+  }
+  .Extra{
+     
+     margin-top:100px;
+     margin-left: 600px;
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 16px;
+     color:rgb(57, 67, 71);
+     width:600px;
+     height:70px;
+  }
+  .Extra input{
+     color:rgb(40, 44, 46);
+     width:600px;
+     height:300px;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  .Extra input[type=text]{
+     
+    
+     border:2px solid  rgb(83, 123, 139);;
+     padding:12px;
+     border-radius: 12px;
+     resize:vertical;
+     background-color: rgba(151, 179, 197, 0.26);
+  }
+  .Extra :placeholder-shown{
+     text-align: center;
+     position:relative;
+     font-size: 18px;
+     
+  }
+  /*adding extra note on bottom*/
+  .note{
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 280px;
+   
+     text-align: left;
+     margin-left: 620px;
+     margin-right: 60px;
+     color:rgb(40, 44, 46);
+  }
+  .bookingButton/*styling button*/
+  {
+     color:rgb(40, 44, 46);
+     background-color: rgb(255, 255, 255);
+     width: 200px;
+     padding:2px;
+     
+     border-radius:12px;
+     font-size:16px;
+     border:0;
+     cursor:pointer;
+     margin:1px;
+     margin-left:1200px;
+     margin-top:50px;
+  
+  }
+  .bookingButton:hover{
+     background-color: rgb(46, 135, 139);
+  }
+}
+
+
+
+
+
+
+ 
+
